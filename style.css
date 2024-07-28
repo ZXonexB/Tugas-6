@@ -1,0 +1,197 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 8px;
+    background-color: #f0f0f0;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+header p {
+    margin-bottom: 20px;
+    color: #9d9e9e;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 15px;
+    font-size: 1.1rem;
+}
+
+.src-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 3.5rem;
+}
+
+.src-bar input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #868484;
+    border-radius: 4px 0 0 4px;
+}
+
+.src-bar button {
+    padding: 10px 20px;
+    border: 1px solid #868484;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(221, 221, 221);
+    border-left: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.src-bar button:hover {
+    opacity: 0.8;
+}
+
+.categories {
+    margin: 20px;
+}
+
+.categories ul {
+    font-size: small;
+    list-style: none;
+    display: flex;
+    margin-left: 6rem;
+    gap: 11px;
+}
+
+.categories ul li {
+    margin: 0;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #494444;
+    text-align: center;
+}
+
+.categories ul li a:hover {
+    color: #000000;
+}
+
+main {
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container .card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    max-width: 455px;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.2s;
+    cursor: pointer;
+    position: relative;
+}
+
+.container .card:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.container .card .card-image {
+    height: auto;
+    width: 100%;
+    -o-object-fit: cover;
+        object-fit: cover;
+}
+
+.card-content {
+    padding: 9px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e0f7fa;
+    border-radius: 50px;
+    color: #00796b;
+    font-size: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.tags1 {
+    background-color: #c4f7c8;
+    color: #0ea616;
+}
+
+.tags2 {
+    background-color: #c4f7c8;
+    color: #0ea616;
+}
+
+.date {
+    color: #757575;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.title-card {
+    color: #333;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.text-card {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+    border: 0.1rem solid #a5df9f;
+    background: #ffeeff;
+    color: #a5df9f;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.btn:hover {
+    background: #85d57d;
+    color: #ffeeff;
+}
